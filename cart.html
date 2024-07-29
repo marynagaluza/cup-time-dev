@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cup Time - время кофе и чая</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo-link">
+                <img src="image/logo.svg" alt="Логотип Cup Time" class="header__logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Чай</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Кофе</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Чайники</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Турки</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">Прочее</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="cart.html" class="header__cart-link">6</a>
+        </div>
+    </header>
+    <main class="main">
+        <section class="cart">
+            <div class="container">
+                <div class="cart__container">
+                    <div class="cart__title-wrapper">
+                        <h2 class="cart__title">Корзина</h2>
+                        <span class="cart__count">(6)</span>
+                    </div>
+                    <ul class="cart__list">
+                        <li class="cart__item">
+                            <article class="product">
+                                <img src="image/photo__1.jpg" alt="Кокосовая матча" class="product__image">
+                                <h3 class="product__title">Кокосовая матча</h3>
+                                <div class="product__order-count">
+                                    <button class="count__minus">-</button>
+                                    <p class="count__amount">1</p>
+                                    <button class="count__plus">+</button>
+                                  </div>
+                                <p class="product__price">390 ₽</p>
+                            </article>
+                        </li>
+                        <li class="cart__item">
+                            <article class="product">
+                                <img src="image/photo__2.jpg" alt="Кокосовая матча" class="product__image">
+                                <h3 class="product__title">Зеленый индонезийский чай</h3>
+                                <div class="product__order-count">
+                                    <button class="count__minus">-</button>
+                                    <p class="count__amount">1</p>
+                                    <button class="count__plus">+</button>
+                                  </div>
+                                <p class="product__price">340 ₽</p>
+                            </article>
+                        </li>
+                        <li class="cart__item">
+                            <article class="product">
+                                <img src="image/photo__3.jpg" alt="Кокосовая матча" class="product__image">
+                                <h3 class="product__title">Черный чай из Эфиопии</h3>
+                                <div class="product__order-count">
+                                    <button class="count__minus">-</button>
+                                    <p class="count__amount">1</p>
+                                    <button class="count__plus">+</button>
+                                  </div>
+                                <p class="product__price">380 ₽</p>
+                            </article>
+                        </li>
+                        <li class="cart__item">
+                            <article class="product">
+                                <img src="image/photo__4.jpg" alt="Кокосовая матча" class="product__image">
+                                <h3 class="product__title">Черный чай из Калифорнии</h3>
+                                <div class="product__order-count">
+                                    <button class="count__minus">-</button>
+                                    <p class="count__amount">1</p>
+                                    <button class="count__plus">+</button>
+                                  </div>
+                                <p class="product__price">360 ₽</p>
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="cart__total">
+                        <p>Итого</p>
+                        <span class="cart__total-amount">1470 ₽</span>
+                    </div>
+                    <button class="cart__submit">Заказать</button>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <h2 class="order__title">Доставка</h2>
+                <form class="order__form">
+                    <fieldset class="order__fieldset order__fieldset-user_info">
+                      <legend class="order__legend">Введите данные</legend>
+                      <div class="order__input-group">
+                        <input
+                          class="order__input"
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Имя" />
+                        <input
+                          class="order__input"
+                          type="text"
+                          name="phone"
+                          id="phone"
+                          placeholder="Телефон" />
+                        <input
+                          class="order__input"
+                          type="text"
+                          name="address"
+                          id="address"
+                          placeholder="Адрес" />
+                      </div>
+                    </fieldset>
+                    <fieldset class="order__fieldset">
+                        <legend class="order__legend">Оплата</legend>
+                        <label class="order__label checkbox">
+                          <input class="checkbox__input" type="checkbox"
+                            name="payment" value="Картой" />Картой
+                        </label>
+                         <label class="order__label checkbox">
+                          <input class="order__input" type="checkbox"
+                            name="payment" value="Наличные" />Наличные
+                        </label>
+                      </fieldset>
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__logo-link">
+                <img src="image/logo.svg" alt="Логотип Cup Time" class="footer__logo">
+            </a>
+            <div class="footer__nav">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">Чай</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">Кофе</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">Чайники</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">Турки</a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a href="" class="footer__menu-link">Прочее</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <p class="footer__copyright">©CUPTIME, 2024</p>
+                <ul class="footer__developers">
+                    <li class="footer__developer">Designer:
+                        <a href="#" class="footer__developer-link">Anastasia Ilina</a>
+                    </li>
+                    <li class="footer__developer">Developer:
+                        <a href="#" class="footer__developer-link">Maryna Haluza</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <a href="mailto:CUPTIME@gmail.com" class="footer__email">CUPTIME@gmail.com</a>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="image/tg.svg" alt="Телеграм">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="image/yt.svg" alt="Ютуб">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <img src="image/vk.svg" alt="Вконтакте">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
